@@ -1,0 +1,198 @@
+#map-wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  height: calc(100vh - 30px);
+}
+
+#map {
+  text-align: center;
+}
+
+/**
+* infoWindow
+*/
+.info-window {
+  text-align: center;
+  max-width: 50vw;
+}
+
+.venue-img {
+  width: 15vw;
+  height: 15vh;
+}
+
+.venue-rating {
+  text-align: center;
+  background-color: #FFC300;
+  border-radius: 2px 2px 2px 2px;
+  margin: 0 auto;
+  width: 15vw;
+  height: 4vh;
+}
+
+.stars {
+  display: inline;
+}
+
+.stars li {
+  display: inline;
+}
+
+.foursquare {
+  background-color: #FAECBF;
+  border-radius: 5px 10px 5px 10px;
+  margin: 0 auto;
+  width: 15vw;
+  height: 3vh;
+}
+
+/**
+* search list
+*/
+.navbar {
+  background-color: #3F6CB4;
+}
+
+#search-query {
+  width: 15vw;
+}
+
+#places-list {
+  background-color: #3F6CB4;
+  float: left;
+  padding: 10px 20px 10px 20px;
+  height: 100vh;
+}
+
+.list-group-item {
+  text-align: center;
+  background-color: #FAF2F0;
+  border-radius: 15px 10px 15px 10px;
+  box-shadow: 1px 1px 2px #F7F6F0;
+  margin-top: 1.25vh;
+  width: 15vw;
+  height: 7vh;
+}
+
+.btn {
+  width: 12vw;
+  padding: 5px 0 5px 0;
+}
+
+/**
+* Media query sizing guide from
+*  https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+
+/**
+* iPhone
+*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  .venue-img {
+    width: 42vw;
+    height: 15vh;
+  }
+
+  .venue-rating {
+    width: 42vw;
+    height: 5vh;
+  }
+
+  .foursquare {
+    width: 42vw;
+    height: 3vh;
+  }
+
+  #places-list {
+    float: none;
+  }
+
+  #search-query {
+    width: 90vw;
+  }
+
+  .list-group-item {
+    margin-top: 2vh;
+    width: 90vw;
+  }
+
+  .btn {
+    width: 80vw;
+  }
+}
+
+/**
+* Galaxy and Pixel
+*/
+@media only screen
+and (min-device-width: 569px)
+and (max-device-width: 767px) {
+  .venue-img {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .venue-rating {
+    width: 40vw;
+    height: 5vh;
+  }
+
+  .foursquare {
+    width: 40vw;
+    height: 3vh;
+  }
+
+  #places-list {
+    float: none;
+  }
+
+  #search-query {
+    width: 90vw;
+  }
+
+  .list-group-item {
+    margin-top: 2vh;
+    width: 90vw;
+  }
+
+  .btn {
+    width: 80vw;
+  }
+}
+
+/**
+* iPad
+*/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .venue-img {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  .venue-rating {
+    width: 40vw;
+    height: 5vh;
+  }
+
+  .foursquare {
+    width: 40vw;
+    height: 3vh;
+  }
+
+  #search-query {
+    width: 50vw;
+  }
+
+  .list-group-item {
+    margin-top: 2vh;
+    width: 50vw;
+  }
+
+  .btn {
+    width: 40vw;
+  }
+}

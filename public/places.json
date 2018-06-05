@@ -1,0 +1,114 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "title": "Kingdom Schools",
+      "position": {
+        "lat": 24.792201,
+        "lng": 46.658196
+      },
+      "address": "King Abdul Aziz Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "school"
+    },
+
+    {
+      "id": 2,
+      "title": "Alia Plaza",
+      "position": {
+        "lat": 24.808292,
+        "lng": 46.669078
+      },
+      "address": "Abi Bakr As Siddiq Branch Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "market"
+    },
+
+    {
+      "id": 3,
+      "title": "Saco",
+      "position": {
+        "lat": 24.808473,
+        "lng": 46.670057
+      },
+      "address": "Abi Bakr As Siddiq Branch Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "store"
+    },
+
+    {
+      "id": 4,
+      "title": "Tamimi Markets",
+      "position": {
+        "lat": 24.79076,
+        "lng": 46.649025
+      },
+      "address": "Abi Bakr As Siddiq Branch Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "market"
+    },
+
+    {
+      "id": 5,
+      "title": "Five Guys",
+      "position": {
+        "lat": 24.789639,
+        "lng": 46.659023
+      },
+      "address": "King Abdul Aziz Rd, Ar Rabi, Riyadh 13316 2742, Saudi Arabia",
+      "type": "restaurant"
+    },
+
+    {
+      "id": 6,
+      "title": "Fuddruckers",
+      "position": {
+        "lat": 24.805771,
+        "lng": 46.660265
+      },
+      "address": "Al Qala'a, Ar Rabi, Riyadh 13316 2850, Saudi Arabia",
+      "type": "restaurant"
+    },
+
+    {
+      "id": 7,
+      "title": "Tutti Cafe",
+      "position": {
+        "lat": 24.795325,
+        "lng": 46.6561
+      },
+      "address": "King Abdul Aziz Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "coffee_shop"
+    },
+
+    {
+      "id": 8,
+      "title": "Kanakah Cafe",
+      "position": {
+        "lat": 24.798374,
+        "lng": 46.654727
+      },
+      "address": "King Abdul Aziz Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "coffee_shop"
+    },
+
+    {
+      "id": 9,
+      "title": "Starbucks Coffee",
+      "position": {
+        "lat": 24.789594,
+        "lng": 46.659058
+      },
+      "address": "Mateen Plaza, King Abdul Aziz Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "coffee_shop"
+    },
+
+    {
+      "id": 10,
+      "title": "Tea Club",
+      "position": {
+        "lat": 24.790159,
+        "lng": 46.658813
+      },
+      "address": "King Abdul Aziz Rd, Ar Rabi, Riyadh 13316, Saudi Arabia",
+      "type": "coffee_shop"
+    }
+
+  ]
+}
